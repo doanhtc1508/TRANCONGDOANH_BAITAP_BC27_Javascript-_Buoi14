@@ -6,8 +6,7 @@ function checkTriangle () {
     var canhB = +document.getElementById ("canhB").value ;
     var canhC = +document.getElementById ("canhC").value ;
     // B2 : kiểm tra xem là tam giác gì 
-    if ((canhA + canhB > canhC) && (canhA + canhB >  canhB) && (canhB + canhC >canhA)
-    && (canhA >0) && (canhB >0) && (canhC >0) ){
+    if ((canhA >0) && (canhB >0) && (canhC >0) ){
         if ((canhA == canhB) && (canhB == canhC )) {
             document.getElementById ("tamGiac").innerHTML = "Là tam giác đều"
         }else if ((canhA == canhB) || (canhB == canhC ) || (canhA == canhC) ) {
@@ -19,7 +18,7 @@ function checkTriangle () {
         }else {
             document.getElementById ("tamGiac").innerHTML = "Là tam giác thường";
         }
-
+    
     }else {
         document.getElementById ("tamGiac").innerHTML = "3 cạnh của tam giác không thỏa mãn điều kiện lập thành tam giác"
     }
