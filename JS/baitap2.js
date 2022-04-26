@@ -5,7 +5,23 @@ function checkName (){
     var name = document.getElementById ("name").value;
 
     // B2 : kiểm tra 
-    if (name === "Bố" || name === "Mẹ" || name === "anh Trai" || name === "em Gía" ) {
+    // switch (name) {
+    //     case "Bố" :
+    //         document.getElementById ("display").innerHTML = "Hello " + name ;
+    //         break ;
+    //     case "Mẹ" :
+    //         document.getElementById ("display").innerHTML = "Hello " + name ;
+    //         break ;
+    //     case "anh Trai" :
+    //         document.getElementById ("display").innerHTML = "Hello " + name ;
+    //         break ;
+    //     case "em Gái" :
+    //         document.getElementById ("display").innerHTML = "Hello " + name ;
+    //         break ;
+    //     default :
+    //     document.getElementById ("display").innerHTML = "Thử lại"
+    // }
+    if (name === "Bố" || name === "Mẹ" || name === "anh Trai" || name === "em Gái" ) {
         document.getElementById("display").innerHTML = "Hello " + name ;
     }else {
         document.getElementById("display").innerHTML = "Thử lại";
