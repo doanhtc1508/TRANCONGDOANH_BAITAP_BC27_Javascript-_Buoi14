@@ -33,7 +33,7 @@ function checkNumber () {
         countSoLe += 1 ;
     }
    
-    console.log('countSoLe: ', countSoLe)
+    // console.log('countSoLe: ', countSoLe)
     // (numberOne % 2 == 0) ? 
     //  document.getElementById ("ketQua1").innerHTML = numberOne + " Là số chẵn" :
     // document.getElementById ("ketQua1").innerHTML = numberOne + " Là số lẻ";
@@ -51,7 +51,7 @@ function checkNumber () {
     document.getElementById ("ketQua4").innerHTML = `<span>Tong chan: ${countSoChan}</span><br/>
     <span>Tong le: ${countSoLe}</span>
     `
-    
+
 
     
 }
