@@ -10,18 +10,12 @@ function sortNumber () {
 
     
     // b2 : sắp xếp thoe thứ tự tăng dần
-    // min :
     min = numberOne < numberTow ? numberOne : numberTow ;
     max = numberOne + numberTow - min ;
     min = min < numberThree ? min : numberThree ;
     max = max > numberThree ? max : numberThree ;
      // mid :
     var mid = numberOne + numberTow + numberThree - min - max ;
-
-   
-    
-   
-    
 
     // var numberOder = [numberOne, numberTow ,numberThree  ];
     // sắp xếp các số theo thứ tự tăng dần

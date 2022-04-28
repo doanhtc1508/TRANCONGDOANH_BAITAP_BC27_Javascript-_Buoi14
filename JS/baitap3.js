@@ -26,7 +26,7 @@ function checkNumber () {
         countSoLe += 1;
     }
     if (numberThree % 2 == 0 ) {
-        document.getElementById ("ketQua3").innerHTML = numberThree + "Là số chẵn";
+        document.getElementById ("ketQua3").innerHTML = numberThree + " Là số chẵn";
         countSoChan += 1 ;
     }else {
         document.getElementById ("ketQua3").innerHTML = numberThree + " Là số lẻ";
@@ -48,8 +48,8 @@ function checkNumber () {
 
     // B3: xuất kết quả 
     document.getElementById ("soChanSoLe").style.display = "block" ;
-    document.getElementById ("ketQua4").innerHTML = `<span>Tong chan: ${countSoChan}</span><br/>
-    <span>Tong le: ${countSoLe}</span>
+    document.getElementById ("ketQua4").innerHTML = `<span>Tổng chẵn: ${countSoChan}</span><br/>
+    <span>Tổng lẻ: ${countSoLe}</span>
     `
 
 
